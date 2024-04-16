@@ -1,0 +1,25 @@
+body{
+    background-color: #333;
+}
+.loader{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid black;
+    border-top: 10px solid royalblue;
+    animation-name: loader;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes loader{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
